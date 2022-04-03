@@ -1,0 +1,325 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background: url("slider-1.jpg");
+  width: 100vw;
+  height: 120vh;
+}
+#menu {
+  background: url("menus.jpg");
+
+  background-size: cover;
+  height: 50vh;
+}
+#menu div {
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Times New Roman", Times, serif;
+}
+#menubody {
+  overflow: hidden;
+  height: fit-content;
+  width: 100vw;
+}
+#menubody .list {
+  text-align: center;
+  margin: 30px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+#menubody .list ul li {
+  border: 2px solid black;
+}
+.list ul li:hover {
+  color: white;
+  background: rgb(238, 121, 38);
+}
+#about {
+  background: url("about.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  position: relative;
+}
+#about div {
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Times New Roman", Times, serif;
+}
+#aboutbody {
+  height: 80vh;
+  width: 100vw;
+  background: rgb(232, 238, 238);
+}
+#aboutbody div {
+  width: 60vw;
+  float: right;
+  line-height: 40px;
+  margin-top: 60px;
+}
+#aboutbody img {
+  position: absolute;
+  top: 800px;
+}
+#aboutbody2 {
+  height: 60vh;
+  background: white;
+}
+#aboutbody2 div {
+  width: 45vw;
+  line-height: 25px;
+  margin: 100px;
+}
+#aboutbody2 img {
+  position: absolute;
+  right: 100px;
+  top: 1500px;
+}
+#aboutpic {
+  width: 100vw;
+  height: 50vh;
+
+  display: inline-flex;
+}
+#aboutbody3 {
+  background: white;
+  position: relative;
+}
+#aboutbody3 div {
+  width: 40vw;
+  margin: 100px;
+  float: right;
+}
+.image1 {
+  position: absolute;
+  top: 20px;
+  left: 250px;
+}
+.image2 {
+  position: absolute;
+  top: 60px;
+  left: 100px;
+}
+input {
+  width: 240px;
+  height: 30px;
+}
+#button {
+  background: chocolate;
+  width: 100px;
+  height: 35px;
+  color: white;
+}
+.logo {
+  margin-left: 42%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+li a {
+  color: white;
+  font-size: 20px;
+  text-transform: capitalize;
+  margin: 0 65px auto;
+  text-decoration: none;
+}
+
+.active a {
+  color: rgb(223, 141, 33);
+}
+a:hover {
+  color: rgb(223, 141, 33);
+}
+.img {
+  display: inline;
+}
+.img1,
+.img2,
+.img3 {
+  position: absolute;
+}
+.img1 {
+  left: 0;
+  top: 70vh;
+}
+.img2 {
+  left: 30vw;
+  top: 65vh;
+  width: 500px;
+}
+.img3 {
+  right: 40vw;
+  top: 60vh;
+  width: 40px;
+}
+.body {
+  height: 70vh;
+  position: relative;
+  background: linear-gradient(to top, rgb(179, 176, 176), rgb(243, 241, 241));
+}
+.write {
+  width: 40vw;
+  height: 70vh;
+  margin: 100px;
+  margin-top: 5px;
+  text-align: center;
+}
+.pic {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#pic2 {
+  position: absolute;
+  top: 25vh;
+  right: 18vw;
+  z-index: 2;
+}
+#pic1 {
+  position: absolute;
+  top: -5vh;
+  right: 20vw;
+}
+#body2 {
+  overflow: hidden;
+  background: url("slider-3.jpg");
+
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+#body2 div {
+  color: black;
+  width: 250px;
+  height: 170px;
+  outline: 2px solid rgb(53, 46, 46);
+  outline-offset: -5px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.cocktail {
+  position: absolute;
+  top: 10vh;
+  right: 10vw;
+}
+.beverages {
+  position: absolute;
+  top: 60vh;
+  right: 20vw;
+}
+.tae {
+  position: absolute;
+  top: 40vh;
+  right: 40vw;
+}
+.coffee {
+  position: absolute;
+  top: 10vh;
+  left: 20vw;
+}
+.cake {
+  position: absolute;
+  bottom: 10vh;
+  left: 20vw;
+}
+.milk {
+  position: absolute;
+  top: 50vh;
+}
+.tae:hover {
+  top: 39vh;
+  right: 39vw;
+}
+.cake:hover {
+  bottom: 9vh;
+  left: 19vw;
+}
+.milk:hover {
+  top: 49vh;
+}
+.beverages:hover {
+  top: 59vh;
+  right: 19vw;
+}
+.coffee:hover {
+  top: 9vh;
+  right: 19vw;
+}
+.cocktail:hover {
+  top: 9vh;
+  right: 9vw;
+}
+section {
+  overflow: hidden;
+  background: url("slider-2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#body3 img {
+  width: 200px;
+  height: 200px;
+}
+.container1 {
+  text-align: center;
+  width: 50vw;
+}
+aside {
+  overflow: hidden;
+  background-color: rgb(103, 212, 212);
+  position: relative;
+  height: 70vh;
+  line-height: 30px;
+}
+aside > p {
+  position: absolute;
+  bottom: 50vh;
+  right: 100px;
+}
+aside img {
+  position: absolute;
+  bottom: 10vh;
+  left: 40vw;
+}
+#contain {
+  height: fit-content;
+  position: relative;
+  background-color: rgba(231, 231, 223, 0.959);
+}
+#contain img {
+  float: left;
+  padding: 100px;
+}
+
+#contain p {
+  clear: both;
+  font-style: oblique;
+  font-weight: bold;
+}
+#contain div {
+  position: absolute;
+  top: 120px;
+  right: 30px;
+}
+#end > div {
+  float: left;
+  margin: 10px;
+  color: rgb(151, 116, 116);
+}
+footer p {
+  padding: 40px;
+}
+footer {
+  text-align: center;
+  background-color: rgb(29, 27, 27);
+  color: rgba(210, 105, 30, 0.836);
+}
